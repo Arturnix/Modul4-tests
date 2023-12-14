@@ -34,7 +34,7 @@ public class Zadanie2 {
     }
     public static boolean hasNumbers(String password) {
 
-        if(password.matches(".*\\d.*")) {
+        if(!password.matches(".*\\d.*")) {
             return false;
         }
             return true;
