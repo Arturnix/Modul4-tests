@@ -42,7 +42,7 @@ public class Zadanie2 {
 
     public boolean hasSpecialCharacter(String password) {
 
-        if(password.matches(".*[!.@\\-;”(){}\\[\\]?].*")) {
+        if(!password.matches(".*[!.@\\-;”(){}\\[\\]?].*")) {
             return false;
         }
 
