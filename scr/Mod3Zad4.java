@@ -8,22 +8,11 @@ public class Mod3Zad4 implements Comparable<Mod3Zad4>{
     private  String name;
     private  String lastName;
 
-    private List<Mod3Zad4> students = new ArrayList<>();
-    private List<Mod3Zad4> studentsAfterSort = new ArrayList<>();
-
     public Mod3Zad4(int age, double height, String name, String lastName) {
         this.age = age;
         this.height = height;
         this.name = name;
         this.lastName = lastName;
-    }
-    
-    public List<Mod3Zad4> getStudents() {
-        return students;
-    }
-
-    public List<Mod3Zad4> getStudentsAfterSort() {
-        return studentsAfterSort;
     }
 
     public int getAge() {
